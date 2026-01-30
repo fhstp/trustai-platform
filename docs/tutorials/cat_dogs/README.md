@@ -139,12 +139,12 @@ cd docs/tutorials/cat_dogs
 ```
 
 ### 4.5 Connect ML Backend
-1. In your project, go to **Settings** -> **Machine Learning**.
+1. In your project, go to **Settings** -> **Model**.
 2. Click **Add Model**.
 3. **Title**: `CatDog Backend`
 4. **URL**: `http://localhost:9090`
 5. Toggle **Interactive preannotations** to ON.
-6. Click **Validate and Save**.
+6. Click **Validate and Save**. (You might get an error the first time you click. This is because the first time the backend is started, it needs to download weights, which may need longer than the timeout for validation depending on internet connection. Just wait a bit (or check the status in the terminal output) until the weights are downloaded and then click again)
 
 ---
 

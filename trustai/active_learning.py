@@ -461,7 +461,10 @@ class ActiveLearningManager:
                 "tasks": tasks,
             },
         )
-        return request.json()["success"]
+        try:
+            return request.json()["success"]
+        except Exception:
+            return False
 
     def trigger_model_retraining(self) -> bool:
         """

@@ -81,7 +81,8 @@ cd docs/tutorials/cat_dogs
 1. Open your browser and go to `http://localhost:8080`.
 2. Register a new account.
 3. Retrieve your API Token:
-   - Go to **Account & Settings** (top right icon) -> **Account**.
+   - Got to **Organization** -> **API Token Settings** (top right button) and enable **Legacy Tokens**
+   - Go to **Account & Settings** (top right icon) -> **Legacy Token**.
    - Copy the **Access Token**.
 
 ### 4.2 Application Configuration
